@@ -130,7 +130,6 @@ header nav .menu a li:hover {
 
 .hero-section .hero-img{
   width: 50%;
-  /* object-fit: cover; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,4 +194,60 @@ header nav .menu a li:hover {
   line-height: 1.5rem;
   font-size: 1.5rem;
   margin-top: 1rem;
+}
+
+/* --------Service Section-------- */
+.service-heading{
+  padding: 0 20rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20rem;
+}
+
+.service-heading h1{
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-bottom: 10rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.service-heading .service-type {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+.service-heading .service-type .service {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-heading .service-type .service img{
+  width: 40%;
+  margin-bottom: 0.5rem;
+}
+
+.service-heading .service-type .service h3{
+  font-size: 2.1rem;
+}
+
+
+/* --------Footer Section-------- */
+footer {
+  margin-top: 5rem;
+  font-size: 1rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefefef;
 }
